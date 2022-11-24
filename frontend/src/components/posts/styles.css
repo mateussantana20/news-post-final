@@ -1,0 +1,14 @@
+/* .posts{
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 16px;
+}
+ */
+
+.posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}

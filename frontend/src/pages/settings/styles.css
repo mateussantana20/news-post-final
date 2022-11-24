@@ -1,0 +1,73 @@
+.settings {
+  display: flex;
+}
+
+.settingsContainer {
+  flex: 9;
+  padding: 20px;
+}
+
+.settingsTitle {
+  display: flex;
+  align-items: center;
+  flex-direction: column
+}
+
+.settingsTitleUpdate {
+  font-size: 32px;
+  margin-bottom: 18px;
+  color: #64748B;
+  font-weight: bold;
+}
+
+.settingsTitleDelete {
+  color: #d61c38;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.settingsForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.settingInput {
+  padding: 8px;
+  font-size: 14px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.avatarProfile  {
+  margin: 8px 0;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.settingsForm > label {
+  font-size: 24px;
+  margin: 18px 0;
+}
+
+.settingsButton {
+  /* align-self: center; */
+  width: 100%;
+  border: none;
+  border-radius: 12px;
+  color: #fff;
+  background-color: #64748B;
+  padding: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  trasition: background-color 0.5s ease-in-out
+}
+
+.settingsButton:hover {
+  background-color: rgba(100, 116, 139, 0.8);
+}

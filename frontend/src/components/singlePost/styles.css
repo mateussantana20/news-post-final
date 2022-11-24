@@ -1,0 +1,127 @@
+.singlePost {
+  flex: 9;
+}
+
+.singlePostContainer {
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.singlePostImg {
+  width: 60%;
+  border-radius: 8px;
+  height: 300px;
+  border-radius: 5px;
+  /* object-fit: cover; */
+}
+
+.singlePostTitle {
+  text-align: center;
+  padding: 16px 0;
+  font-size: 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+}
+
+.singlePostTitle p {
+  /* margin-top: 8px; */
+  font-weight: bold;
+}
+
+.singlePostEdit {
+  float: right;
+  font-size: 16px;
+}
+
+.singlePostIcon {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.singlePostTitleInput {
+  margin: 10px;
+  font-family: "Lora", serif;
+  font-size: 28px;
+  text-align: center;
+  border: none;
+  color: gray;
+  border-bottom: 1px solid lightgray;
+}
+
+
+
+.singlePostIcon:first-child {
+  color: #00C897;
+  transition: color ease 0.2s
+}
+
+.singlePostIcon:first-child:hover {
+  color: #0a5744;
+}
+
+.singlePostIcon:last-child {
+  color: #db274b;
+  transition: color ease 0.2s
+}
+
+.singlePostIcon:last-child:hover {
+  color: #8f1d33;
+}
+
+.singlePostInfo {
+  padding: 12px 0;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  color: #fff;
+}
+
+.singlePostAuthor{
+  margin-left: 6px;
+}
+
+.data-time {
+  margin-top: 4px;
+  color: #777
+}
+
+.singlePostDesc {
+  max-width: 100%;
+  margin-top: 8px;
+  color: #777;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.singlePostDescInput {
+  margin: 8px 0;
+  width: 100%;
+  height: 420px;
+  border: none;
+  color: #666;
+  font-size: 18px;
+  line-height: 25px;
+  /* weight: 100%; */
+}
+
+.singlePostDesc::first-letter {
+  margin-left: 24px;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.singlePostButton {
+  color: #fff;
+  background: teal;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  width:70vw;
+  margin-top: 8px;
+}
